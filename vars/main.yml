@@ -1,0 +1,9 @@
+---
+php_major: 8
+php_minor: 2
+php_version: "{{ php_major }}.{{ php_minor }}"
+php_version_short: "{{ php_major }}{{ php_minor }}"
+php_prefix: "php{{ php_version_short }}"
+
+php_packages:
+  - name: "{{ php_prefix}}"
